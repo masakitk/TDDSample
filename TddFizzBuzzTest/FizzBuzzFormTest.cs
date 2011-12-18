@@ -18,6 +18,15 @@ namespace TddFizzBuzzTest
             new ButtonTester("fizzBuzzButton", target).Click();
             var dataGrid = new Finder<DataGridView>("fizzBuzzDataGridView", target).Find();
             AssertForOneRow(dataGrid, 1, "1");
+            AssertForOneRow(dataGrid, 1, "2");
+            AssertForOneRow(dataGrid, 1, "Fizz");
+            AssertForOneRow(dataGrid, 1, "4");
+            AssertForOneRow(dataGrid, 1, "Buzz");
+            AssertForOneRow(dataGrid, 1, "Fizz");
+            AssertForOneRow(dataGrid, 1, "7");
+            AssertForOneRow(dataGrid, 1, "8");
+            AssertForOneRow(dataGrid, 1, "Fizz");
+            AssertForOneRow(dataGrid, 1, "Buzz");
         }
 
         private static void AssertForOneRow(DataGridView dataGrid, int rowIndex, string expected)
