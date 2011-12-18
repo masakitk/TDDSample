@@ -51,6 +51,7 @@
             this.fizzBuzzButton.TabIndex = 1;
             this.fizzBuzzButton.Text = "FizzBuzz結果表示！";
             this.fizzBuzzButton.UseVisualStyleBackColor = true;
+            this.fizzBuzzButton.Click += new System.EventHandler(this.fizzBuzzButton_Click);
             // 
             // label1
             // 

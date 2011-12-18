@@ -15,5 +15,10 @@ namespace TddFizzBuzz
         {
             InitializeComponent();
         }
+
+        internal void ShowFizzBuzzRows(int maxNumber)
+        {
+            DataSource = FizzBuzzService.GetInstance().GetFizzBuzzList(maxNumber); 
+        }
     }
 }

@@ -15,5 +15,10 @@ namespace TddFizzBuzz
         {
             InitializeComponent();
         }
+
+        private void fizzBuzzButton_Click(object sender, EventArgs e)
+        {
+            fizzBuzzDataGridView.ShowFizzBuzzRows(int.Parse(maxNumberTextBox.Text));
+        }
     }
 }

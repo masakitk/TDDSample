@@ -78,6 +78,7 @@
     <Compile Include="FizzBuzzForm.Designer.cs">
       <DependentUpon>FizzBuzzForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="FizzBuzzService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FizzBuzzForm.resx">
