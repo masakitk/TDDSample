@@ -1,18 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\work\git\TddSample\TDDSample\TddSample.nunit" total="2" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-02-27" time="21:59:44">
+<test-results name="C:\work\git\TddSample\TDDSample\TddSample.nunit" total="3" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-02-27" time="22:19:06">
   <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.5448" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0" machine-name="MASAKITK-PC" user="masakitk" user-domain="masakitk-PC" />
   <culture-info current-culture="ja-JP" current-uiculture="ja-JP" />
-  <test-suite type="Project" name="C:\work\git\TddSample\TDDSample\TddSample.nunit" executed="True" result="Success" success="True" time="0.159" asserts="0">
+  <test-suite type="Project" name="C:\work\git\TddSample\TDDSample\TddSample.nunit" executed="True" result="Success" success="True" time="0.228" asserts="0">
     <results>
-      <test-suite type="Assembly" name="C:\work\git\TddSample\TDDSample\TddFizzBuzzTest\bin\Debug\TddFizzBuzzTest.dll" executed="True" result="Success" success="True" time="0.158" asserts="0">
+      <test-suite type="Assembly" name="C:\work\git\TddSample\TDDSample\TddFizzBuzzTest\bin\Debug\TddFizzBuzzTest.dll" executed="True" result="Success" success="True" time="0.227" asserts="0">
         <results>
-          <test-suite type="Namespace" name="TddFizzBuzzTest" executed="True" result="Success" success="True" time="0.156" asserts="0">
+          <test-suite type="Namespace" name="TddFizzBuzzTest" executed="True" result="Success" success="True" time="0.226" asserts="0">
             <results>
-              <test-suite type="TestFixture" name="TddFizzBuzzTest" executed="True" result="Success" success="True" time="0.155" asserts="0">
+              <test-suite type="TestFixture" name="TddFizzBuzzTest" executed="True" result="Success" success="True" time="0.224" asserts="0">
                 <results>
-                  <test-case name="TddFizzBuzzTest.TddFizzBuzzTest.Test01_10までのFizzBuzz結果の確認" executed="True" result="Success" success="True" time="0.126" asserts="10" />
-                  <test-case name="TddFizzBuzzTest.TddFizzBuzzTest.Test02_数値以外の入力時をチェックしているか" executed="True" result="Success" success="True" time="0.024" asserts="1" />
+                  <test-case name="TddFizzBuzzTest.TddFizzBuzzTest.Test01_10までのFizzBuzz結果の確認" executed="True" result="Success" success="True" time="0.107" asserts="10" />
+                  <test-case name="TddFizzBuzzTest.TddFizzBuzzTest.Test02_数値以外の入力時をチェックしているか" executed="True" result="Success" success="True" time="0.054" asserts="2" />
+                  <test-case name="TddFizzBuzzTest.TddFizzBuzzTest.Test03_0以下の入力時をチェックしているか" executed="True" result="Success" success="True" time="0.053" asserts="2" />
                 </results>
               </test-suite>
             </results>
