@@ -1,43 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\work\git\TddSample\TDDSample\TddSample.nunit" total="2" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-02-27" time="21:47:30">
+<test-results name="C:\work\git\TddSample\TDDSample\TddSample.nunit" total="2" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-02-27" time="21:59:44">
   <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.5448" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0" machine-name="MASAKITK-PC" user="masakitk" user-domain="masakitk-PC" />
   <culture-info current-culture="ja-JP" current-uiculture="ja-JP" />
-  <test-suite type="Project" name="C:\work\git\TddSample\TDDSample\TddSample.nunit" executed="True" result="Failure" success="False" time="3.770" asserts="0">
+  <test-suite type="Project" name="C:\work\git\TddSample\TDDSample\TddSample.nunit" executed="True" result="Success" success="True" time="0.159" asserts="0">
     <results>
-      <test-suite type="Assembly" name="C:\work\git\TddSample\TDDSample\TddFizzBuzzTest\bin\Debug\TddFizzBuzzTest.dll" executed="True" result="Failure" success="False" time="3.755" asserts="0">
+      <test-suite type="Assembly" name="C:\work\git\TddSample\TDDSample\TddFizzBuzzTest\bin\Debug\TddFizzBuzzTest.dll" executed="True" result="Success" success="True" time="0.158" asserts="0">
         <results>
-          <test-suite type="Namespace" name="TddFizzBuzzTest" executed="True" result="Failure" success="False" time="3.753" asserts="0">
+          <test-suite type="Namespace" name="TddFizzBuzzTest" executed="True" result="Success" success="True" time="0.156" asserts="0">
             <results>
-              <test-suite type="TestFixture" name="TddFizzBuzzTest" executed="True" result="Failure" success="False" time="3.751" asserts="0">
+              <test-suite type="TestFixture" name="TddFizzBuzzTest" executed="True" result="Success" success="True" time="0.155" asserts="0">
                 <results>
-                  <test-case name="TddFizzBuzzTest.TddFizzBuzzTest.Test01_10までのFizzBuzz結果の確認" executed="True" result="Success" success="True" time="3.394" asserts="10" />
-                  <test-case name="TddFizzBuzzTest.TddFizzBuzzTest.Test02_数値以外の入力時をチェックしているか" executed="True" result="Error" success="False" time="0.216" asserts="0">
-                    <failure>
-                      <message><![CDATA[System.Reflection.TargetInvocationException : 呼び出しのターゲットが例外をスローしました。
-  ----> System.FormatException : 入力文字列の形式が正しくありません。
-TearDown : NUnit.Extensions.Forms.FormsTestAssertionException : Expected Modal Form did not show]]></message>
-                      <stack-trace><![CDATA[場所 System.RuntimeMethodHandle._InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeType typeOwner)
-場所 System.RuntimeMethodHandle.InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeType typeOwner)
-場所 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
-場所 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
-場所 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
-場所 NUnit.Extensions.Forms.EventHelper.RaiseEvent(Object targetObject, String eventName) 場所 C:\work\tortoisesvn\nunitforms\source\NUnitForms\Util\EventHelper.cs:行 64
-場所 NUnit.Extensions.Forms.ReflectionTester.FireEvent(String eventName) 場所 C:\work\tortoisesvn\nunitforms\source\NUnitForms\Generic Testers\ReflectionTester.cs:行 142
-場所 NUnit.Extensions.Forms.ControlTester`2.Click() 場所 C:\work\tortoisesvn\nunitforms\source\NUnitForms\Generic Testers\ControlTester.cs:行 83
-場所 TddFizzBuzzTest.TddFizzBuzzTest.Test02_数値以外の入力時をチェックしているか() 場所 C:\work\git\TddSample\TDDSample\TddFizzBuzzTest\FizzBuzzFormTest.cs:行 45
---FormatException
-場所 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
-場所 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
-場所 System.Int32.Parse(String s)
-場所 TddFizzBuzz.FizzBuzzForm.fizzBuzzButton_Click(Object sender, EventArgs e) 場所 C:\work\git\TddSample\TDDSample\TddFizzBuzz\FizzBuzzForm.cs:行 21
-場所 System.Windows.Forms.Control.OnClick(EventArgs e)
-場所 System.Windows.Forms.Button.OnClick(EventArgs e)
---TearDown
-場所 NUnit.Extensions.Forms.NUnitFormTest.Verify() 場所 C:\work\tortoisesvn\nunitforms\source\NUnitForms\NUnitFormTest.cs:行 276
-]]></stack-trace>
-                    </failure>
-                  </test-case>
+                  <test-case name="TddFizzBuzzTest.TddFizzBuzzTest.Test01_10までのFizzBuzz結果の確認" executed="True" result="Success" success="True" time="0.126" asserts="10" />
+                  <test-case name="TddFizzBuzzTest.TddFizzBuzzTest.Test02_数値以外の入力時をチェックしているか" executed="True" result="Success" success="True" time="0.024" asserts="1" />
                 </results>
               </test-suite>
             </results>
