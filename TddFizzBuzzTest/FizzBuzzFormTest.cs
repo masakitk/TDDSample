@@ -6,7 +6,7 @@ using TddFizzBuzz;
 namespace TddFizzBuzzTest
 {
     [TestFixture]
-    public class TddFizzBuzzTest
+    public class TddFizzBuzzTest : NUnitFormTest
     {
         [Test]
         public void Test01_10までのFizzBuzz結果の確認()
@@ -28,6 +28,23 @@ namespace TddFizzBuzzTest
             AssertForOneRow(dataGrid, 9, "Fizz");
             AssertForOneRow(dataGrid, 10, "Buzz");
         }
+        [Test]
+        public void Test02_数値以外の入力時をチェックしているか()
+        {
+            var target = new FizzBuzzForm();
+            target.Show();
+
+            DialogBoxHandler = (title, handle) =>
+            {
+                var messageBox = new MessageBoxTester(handle);
+                Assert.That(messageBox.Text, Is.EqualTo("1以上の数値を入力してください。"));
+                messageBox.ClickOk();
+            };
+
+            new TextBoxTester("maxNumberTextBox", target).Enter("aaa");
+            new ButtonTester("fizzBuzzButton", target).Click();
+        }
+
 
         private static void AssertForOneRow(DataGridView dataGrid, int rowIndex, string expected)
         {
